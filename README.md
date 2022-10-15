@@ -21,15 +21,18 @@
 - Expected output:
 
 1- x,y: it is spacecraft's coordinates which will the spacecraft stand on it
+
 2- direction: which will the spacecraft stand on it
 
 -----------------------------------------------------------------------------------------------------------------------
 - To clone it to your device : 
 1- open empty folder in you device , open the terminal
+
 2- git clone ( repo link)
 
 - To run it:
 1- go to the folder where you have cloned in, open the terminal and write:
+
 2- node (file name)
 
 -This folder has 2 files : part 1 & part 2 

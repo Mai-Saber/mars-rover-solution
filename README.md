@@ -15,7 +15,7 @@
 
 3- obstacles: array of coordinates
 
-4- string : It is a group of letters as (R,L,F,B) which determines how the spacecraft will move
+4- string : A string from the letters (R,L,F,B) which determines how the spacecraft will move.
 
 -------------------------------------------------------------------------------------------------------------------------
 - Expected output:

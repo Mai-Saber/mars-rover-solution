@@ -84,7 +84,7 @@ class Robot {
       case "east":
         this.direction = "north";
         break;
-      default:
+      default:    
         console.log("error here in handleMovingLeft");
     }
   }
@@ -113,13 +113,17 @@ class Robot {
           this.handleMovingLeft();
           console.log("L", { x: this.x, y: this.y, direction: this.direction });
           break;
+          
+          // if the entered character isn't R,L,F,B
+        default: 
+          console.log("Sorry, this character doesn't mean direction" )
       }
     }
   }
 }
 
 
-// to test this class enter x,y,direction and string here
+// to test this class enter x,y,direction and string's value here
 
 const newRobot = new Robot({
   x: 4,
@@ -127,6 +131,7 @@ const newRobot = new Robot({
   direction: "east",
   inputString: "FLFFFRFLB",
 });
+
 newRobot.handleMoving();
 
 

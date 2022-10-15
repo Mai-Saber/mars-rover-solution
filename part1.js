@@ -5,7 +5,8 @@ class Robot {
     this.x = x;
     this.y = y;
     this.direction = direction;
-    this.inputArray = inputString.split("", inputString.length);
+    this.inputArray = inputString.split("", inputString.length);   //to convert input string to array
+    
   }
 
   //moving///
@@ -49,7 +50,7 @@ class Robot {
         console.log("error here in handleMovingBackward");
     }
   }
-  // right
+  //rotating right
   handleMovingRight() {
     switch (this.direction) {
       case "north":
@@ -68,7 +69,7 @@ class Robot {
         console.log("error here in handleMovingRight");
     }
   }
-  //left
+  // rotating left
   handleMovingLeft() {
     switch (this.direction) {
       case "north":
@@ -88,7 +89,8 @@ class Robot {
     }
   }
 
-  // mapping
+  // mapping to move the spaceCraft based on the entered String
+  
   handleMoving() {
     for (let i = 0; i < this.inputArray.length; i++) {
       switch (this.inputArray[i]) {
@@ -115,6 +117,9 @@ class Robot {
     }
   }
 }
+
+
+// to test this class enter x,y,direction and string here
 
 const newRobot = new Robot({
   x: 4,

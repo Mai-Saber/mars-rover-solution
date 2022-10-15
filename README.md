@@ -1,9 +1,10 @@
 # mars-rover-solution
 
 task Description: 
+
 The first part: I see it as how to move the spacecraft based on what has been entered of letters meaning directions,And determine its coordinates after each movement.
 
- The second part is how to determine that the ship collided with the obstacle, and if it collides (crashed), it must take a step opposite to the step that made it collide, and tell us where it is standing now.
+ The second part: is how to determine that the ship collided with the obstacle, and if it collides (crashed), it must take a step opposite to the step that made it collide, and tell us where it is standing now.
 
 Expected input :
 x , y : number

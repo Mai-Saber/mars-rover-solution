@@ -26,11 +26,13 @@
 
 -----------------------------------------------------------------------------------------------------------------------
 - To clone it to your device : 
+ 
 1- open empty folder in you device , open the terminal
 
 2- git clone ( repo link)
 
 - To run it:
+
 1- go to the folder where you have cloned in, open the terminal and write:
 
 2- node (file name)

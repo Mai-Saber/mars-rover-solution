@@ -12,9 +12,10 @@
 1- x , y : number
 
 2- direction: "string" (north,south,east,west) from which the spacecraft will start
-obstacles: array of coordinates
 
-3- string : It is a group of letters as (R,L,F,B) which determines how the spacecraft will move
+3- obstacles: array of coordinates
+
+4- string : It is a group of letters as (R,L,F,B) which determines how the spacecraft will move
 
 -------------------------------------------------------------------------------------------------------------------------
 - Expected output:
